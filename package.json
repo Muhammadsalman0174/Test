@@ -1,0 +1,19 @@
+{
+  "name": "form-automationtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cy:run chrome_HeadlessMode": "cypress run --browser --headless -b chrome",
+    "cy:run Form": "cypress run --spec 'cypress/e2e/Form.Spec.js' -b chrome --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.7.0",
+    "cypress-xpath": "^2.0.1",
+    "mochawesome-screenshots": "^1.7.3"
+  }
+}
